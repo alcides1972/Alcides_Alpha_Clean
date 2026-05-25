@@ -266,7 +266,7 @@ st.markdown(
 col_titulo, col_logo = st.columns([5, 1])
 
 with col_titulo:
-    st.title("ALPHA – Institutional Equity Intelligence")
+    st.title("ALPHA – Institutional Equity Intelligence 1")
 
 with col_logo:
     try:
