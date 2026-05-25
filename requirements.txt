@@ -2,3 +2,9 @@ streamlit
 pandas
 yfinance
 numpy
+plotly
+streamlit==1.45.1
+pandas==2.2.3
+yfinance==0.2.58
+numpy==2.2.5
+plotly==6.0.1

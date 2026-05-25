@@ -1,10 +1,33 @@
-# Alcides Alpha V1
+# ALPHA — Institutional Equity Intelligence
 
-Dashboard institucional para análise de ações da B3 com:
+Plataforma institucional para análise inteligente de ações da B3.
 
-- Atualização automática a cada 5 minutos
-- Score fundamentalista
-- Ranking automático
+## Recursos
+
+- Score fundamentalista automático
 - Fair Value estimado
-- Watchlist inicial
-- Deploy via Streamlit Cloud
+- Ranking institucional
+- Diagnóstico técnico
+- Fluxo institucional
+- Breakout scanner
+- Probabilidade direcional
+- Painel macro (IBOV / IFIX / Dólar)
+- Gráficos avançados
+
+## Stack
+
+- Python
+- Streamlit
+- Plotly
+- Pandas
+- Yahoo Finance API
+
+## Deploy
+
+Streamlit Cloud
+
+## Executar local
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
