@@ -9,7 +9,7 @@ from data import get_data
 from scoring import calcular_score, classificar
 
 # =========================================================
-# PAGE CONFIG
+# config
 # =========================================================
 st.set_page_config(
     page_title="ALPHA",
@@ -1545,26 +1545,26 @@ with st.expander("📈 Expandir Gráfico Avançado"):
     # =========================================================
     # GUIA
     # =========================================================
-    with st.expander("📘 Como interpretar este gráfico?"):
+with st.expander("📘 Como interpretar este gráfico?"):
 
-        st.markdown(
-            """
-            ### Leitura Institucional Simplificada
+    st.markdown(
+        """
+        ### Leitura Institucional Simplificada
 
-            **EMA9:** tendência curta / força imediata  
-            **EMA21:** tendência intermediária  
-            **EMA200:** tendência estrutural  
+        **EMA9:** tendência curta / força imediata  
+        **EMA21:** tendência intermediária  
+        **EMA200:** tendência estrutural  
 
-            **RSI < 35:** possível sobrevenda / reação  
-            **RSI > 70:** sobrecompra / risco corretivo  
+        **RSI < 35:** possível sobrevenda / reação  
+        **RSI > 70:** sobrecompra / risco corretivo  
 
-            **Volume alto + preço subindo:** acumulação institucional  
-            **Volume alto + preço caindo:** distribuição institucional  
+        **Volume alto + preço subindo:** acumulação institucional  
+        **Volume alto + preço caindo:** distribuição institucional  
 
-            **Breakout:** rompimento de máxima  
-            **Pullback:** correção saudável  
-            """
-        )
+        **Breakout:** rompimento de máxima  
+        **Pullback:** correção saudável  
+        """
+    )
   
 # =========================================================
 # INDICADORES
