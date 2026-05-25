@@ -1543,7 +1543,7 @@ with st.expander("📈 Expandir Gráfico Avançado"):
         )
 
     # =========================================================
-    # GUIA
+    # GUIA INSTITUCIONAL
     # =========================================================
 with st.expander("📘 Como interpretar este gráfico?"):
 
