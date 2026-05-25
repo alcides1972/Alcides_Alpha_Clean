@@ -9,6 +9,14 @@ from data import get_data
 from scoring import calcular_score, classificar
 
 # =========================================================
+# PAGE CONFIG
+# =========================================================
+st.set_page_config(
+    page_title="ALPHA",
+    layout="wide"
+)
+
+# =========================================================
 # CARGA PRINCIPAL DE DADOS
 # =========================================================
 df = get_data()
@@ -123,13 +131,6 @@ def titulo_secao(id_secao, texto):
         unsafe_allow_html=True
     )
 
-# =========================================================
-# CONFIG
-# =========================================================
-st.set_page_config(
-    page_title="ALPHA",
-    layout="wide"
-)
 
 # =========================================================
 # CACHE
